@@ -1,16 +1,16 @@
 import React from 'react';
-//import Movie from './Movie2';
+//import logo from './logo.svg';
 import './App.css';
-//import Movie from './Movie';
-import Moviep from './Moviep';
+import ShoppingList from './ShoppingList';
 
 function App() {
   return (
-    <div className="container">
-  <Moviep></Moviep>
-</div>
-    
+    <div className="App">
+      <header className="App-header">
+        <ShoppingList />
+      </header>
+    </div>
   );
-} 
+}
 
 export default App;
